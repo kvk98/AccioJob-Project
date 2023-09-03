@@ -1,0 +1,544 @@
+* {
+    background-color: white;
+}
+
+.my-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+
+}
+
+.my-container>div {
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.my-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.my-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.my-nav-links {
+    text-decoration: none;
+    width: Hug (104px);
+    height: Hug (45px);
+    padding: 10px;
+    gap: 8px;
+    color: rgba(79, 79, 79, 1);
+    font-family: Philosopher;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.my-btn {
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+button.my-btn {
+    padding: 15px 36px;
+}
+
+.blue-line {
+    text-align: center;
+    /* width: 1440px; */
+    padding: 8px 562px;
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+body>div:first-child {
+    position: sticky;
+    top: 0px;
+}
+
+body>div:nth-child(2) {
+    position: sticky;
+    top: 88.8px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section>header {
+    flex: 65%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 82px 0px;
+
+
+}
+
+.hero-section-head>h1 {
+    font-family: ABeeZee;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left;
+    font-family: ABeeZee;
+
+
+}
+
+.hero-section-head>h1 {
+    margin-bottom: 20px;
+
+}
+
+.hero-section-para>p {
+    margin-bottom: 35px;
+}
+
+.hero-section-para {
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.my-card {
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    width: 711px;
+    height: 77px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    gap: 34px;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.my-card-left {
+    display: flex;
+    align-items: center;
+    /* width: 134px; */
+    /* height: 47px; */
+    border-radius: 13px;
+    gap: 10px;
+}
+
+.my-card-left>img {
+    width: 36px;
+    height: 36px;
+
+}
+
+.my-card-left-text>p:first-child {
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.my-card-left-text>p:last-child {
+    font-family: Philosopher;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0px;
+}
+
+.my-card-left-bottom {
+    box-shadow: 0px 2px 40px 0 rgba(0, 0, 0, 0.2);
+    width: 321px;
+    height: 41px;
+    top: -3614px;
+    left: -610px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 23px;
+    gap: 10px;
+
+}
+
+.right-card {
+    flex: 35%;
+}
+
+.cta-form {
+    border: 1px solid black;
+    /* width: 415px;
+    height: 496; */
+    margin-top: 83px;
+    padding: 28px 24px 32px 24px;
+    border-radius: 18px;
+    gap: 28px;
+    box-shadow: ;
+}
+
+.cta-form-text {
+    text-align: center;
+}
+
+.cta-form-text>h2 {
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+.cta-form-text>p {
+    font-family: Philosopher;
+    color: rgba(129, 141, 157, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 366px;
+    height: 52px;
+    padding: 14px 6px 15px 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: rgba(250, 250, 250, 1);
+    margin-bottom: 14px;
+
+}
+
+.form-input>img {
+    width: 20px;
+    height: 20px;
+}
+
+.form-input>input {
+    border: none;
+    align-self: auto;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.my-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 55px;
+    padding: 14px 6px 14px 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #357bed, #9235ed);
+    margin-top: 28px;
+}
+
+.my-form-btn>input {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    /* font-weight: 400; */
+    /* line-height: 27px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
+}
+
+.my-form-btn>img {
+    background-color: transparent;
+}
+
+.my-form-footer {
+    text-align: center;
+    padding-top: 14px;
+    font-family: Philosopher;
+    color: rgba(129, 141, 157, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+
+
+/* page 2: courses */
+.courses {
+    /* display: flex; */
+    text-align: center;
+    background-color: #ecf8ff;
+    padding-top: 80px;
+}
+
+.courses>p {
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #6854ed;
+    background-color: transparent;
+}
+
+.courses>h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    color: #2F80ED;
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 60px;
+}
+
+.my-course-card {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 78px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.beginner {
+    border-radius: 9px;
+    border: 2px;
+    text-align: center;
+}
+
+.beginner-top {
+    display: flex;
+    flex-direction: column;
+    /* width: 296px; */
+    /* height: 107px; */
+    top: 31px;
+    left: 101.5px;
+    gap: 12px;
+    padding: 31px 31px 0px;
+
+}
+
+.beginner-top>div:first-child {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.beginner>div:first-child {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.beginner-div>p {
+    display: inline;
+    width: 148px;
+    height: 26px;
+    color: rgba(29, 120, 176, 1);
+    background-color: rgba(224, 243, 255, 1);
+    padding: 6px 15px 6px 15px;
+    border-radius: 7px;
+    gap: 18px;
+    margin-bottom: 12px;
+}
+
+.intermediate-div>p {
+    display: inline;
+    width: 148px;
+    height: 26px;
+    color: rgba(150, 84, 0, 1);
+    background-color: rgba(255, 238, 216, 1);
+    padding: 6px 15px 6px 15px;
+    border-radius: 7px;
+    gap: 18px;
+    margin-bottom: 12px;
+}
+
+.beginner>h2 {
+    display: inline;
+    text-align: center;
+}
+
+.beginner>p {
+    font-family: Philosopher;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 12px;
+    color: rgba(86, 86, 86, 1);
+}
+
+.my-course-card-textbox {
+    text-align: left;
+    padding: 0px 36px 36px 36px;
+}
+
+.my-course-card-text {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 18px 0px;
+}
+
+.my-course-card-text-left {
+    display: flex;
+    align-items: center;
+    font-family: Philosopher;
+}
+
+.my-course-card-text-left>img {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+}
+
+.my-course-card-text-left>p {
+    margin-left: ;
+    width: 131px;
+    height: 16px;
+}
+
+.my-course-card-text-right {
+    width: 175px;
+    height: 19px;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 71px;
+}
+
+.my-beginner-btn>button {
+    width: 203px;
+    height: 55px;
+    padding: 14px 6px 14px 6px;
+    border-radius: 8px;
+    border: 1px solid;
+    gap: 10px;
+    margin: 10px;
+}
+
+.learn-more>img {
+    background-color: transparent;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companies-text {
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 45px;
+}
+
+.companies-text>p:first-child {
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    background: linear-gradient(
+            to right, #367bed, #9235ed);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+}
+.companies-text>h1 {
+    font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: -0.015em;
+text-align: center;
+
+}
+.companies-text>p:last-child {
+    font-family: Philosopher;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #595959;
+}
+
+.companies-img>img {
+    margin: auto;
+}
+
+.companies-btn>button {
+    border: none;
+    width: 276px;
+    height: 55px;
+    top: 670px;
+    left: 582px;
+    padding: 14px 6px 14px 16px;
+    border-radius: 8px;
+    gap: 2px;
+    color: white;
+    background-color: #357bed;
+}
+
+.my-last-btn>img {
+    background-color: transparent;
+}
+
+.student-wall>img {
+    margin: auto;
+    padding-left: 40px;
+}
