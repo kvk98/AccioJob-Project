@@ -81,7 +81,7 @@ body>div:first-child {
 
 body>div:nth-child(2) {
     position: sticky;
-    top: 88.8px;
+    top: 80px;
 }
 
 .hero-section {
@@ -198,14 +198,14 @@ body>div:nth-child(2) {
 }
 
 .cta-form {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 415px;
     height: 496; */
     margin-top: 83px;
     padding: 28px 24px 32px 24px;
     border-radius: 18px;
     gap: 28px;
-    box-shadow: ;
+    box-shadow: 0px 2px 40px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cta-form-text {
@@ -491,22 +491,23 @@ body>div:nth-child(2) {
     line-height: 19px;
     letter-spacing: 0.08em;
     text-align: center;
-    background: linear-gradient(
-            to right, #367bed, #9235ed);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+    background: linear-gradient(to right, #367bed, #9235ed);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 
 }
+
 .companies-text>h1 {
     font-family: ABeeZee;
-font-size: 42px;
-font-style: italic;
-font-weight: 400;
-line-height: 63px;
-letter-spacing: -0.015em;
-text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
 
 }
+
 .companies-text>p:last-child {
     font-family: Philosopher;
     font-size: 16px;
@@ -519,6 +520,10 @@ text-align: center;
 
 .companies-img>img {
     margin: auto;
+}
+
+.companies-btn {
+    padding-top: 41px;
 }
 
 .companies-btn>button {
@@ -541,4 +546,51 @@ text-align: center;
 .student-wall>img {
     margin: auto;
     padding-left: 40px;
+}
+
+.student-wall-text>h2 {
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    padding-top: 96px;
+
+}
+
+.student-wall-text>p {
+    font-family: philosopher;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.one-card {
+    width: 398px;
+    /* height: 261px; */
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px;
+    gap: 15px;
+    border: 1px solid #D7D7D7;
+    margin: 10px;
+
+}
+.top {
+    display: flex;
+    justify-content: space-around;
 }
